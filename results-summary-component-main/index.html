@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -15,33 +16,55 @@
   </style>
 </head>
 <body>
+  <div class="container">
 
-  Your Result
-  76
-  of 100
+    <div class="result-page">
+      <div class="header"><h2>Your Result</h2></div>
+      <div class="score-chart">
+        <p class="score">76</p>
+        <p class="max">of 100</p>
+      </div>
+      <div class="feedback">
+        <div class="header"><h1>Great </h1></div>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+    <div class="summary-page">
+      <div class="header"><h2>Summary</h2></div>
+      <div class="breakdowns">
+        <div class="breakdown reaction">
+          <img src="assets/images/icon-reaction.svg">
+          <p>Reaction</p>
+          <p class="score">80&nbsp&nbsp</p>
+          <p class="max">/ 100</p>
+        </div>
+        <div class="breakdown memory">
+          <img src="assets/images/icon-memory.svg">
+          <p>Memory</p>
+          <p class="score">92&nbsp&nbsp</p>
+          <p class="max">/ 100</p>
+        </div>
+        <div class="breakdown verbal">
+          <img src="assets/images/icon-verbal.svg">
+          <p>Verbal</p>
+          <p class="score">61&nbsp&nbsp</p>
+          <p class="max">/ 100</p>
+        </div>
+        <div class="breakdown visual">
+          <img src="assets/images/icon-visual.svg">
+          <p>Visual</p>
+          <p class="score">72&nbsp&nbsp</p>
+          <p class="max">/ 100</p>
+        </div>
+      </div>
+      <button>Continue</button>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Rui Wei</a>.
   </div>
 </body>
 </html>
