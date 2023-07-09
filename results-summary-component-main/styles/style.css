@@ -190,3 +190,62 @@ p {
 .attribution {
     margin-top: 50px
 }
+
+@media (max-width: 600px) {
+    body {
+        margin: 0px;
+        height: 100%;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .result-page {
+        width: 100%;
+        min-height: 35vh;
+        border-radius: 0px 0px 30px 30px;
+        justify-content: start;
+    }
+
+    .result-page > .header {
+        margin:  0px;
+        font-size: smaller; 
+    }
+
+    .result-page > .score-chart {
+        width: 125px;
+        height: 125px;
+    }
+
+    .result-page > .score-chart > .score {
+        font-size: 40px;
+    }
+
+    .result-page > .score-chart > .max {
+        font-size: 15px;
+    }
+    
+
+    .result-page > .feedback > .header {
+        font-size: 12px;
+    }
+
+    .result-page > .feedback > p {
+        font-size: smaller;
+        width: 65%;
+        margin-bottom: 20px;
+    }
+    
+    .summary-page {
+        width: 100%;
+    }
+
+    .breakdowns > .breakdown {
+        flex-wrap: wrap;
+    }
+
+
+}
