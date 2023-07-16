@@ -37,7 +37,7 @@
 
 ### PageSpeed Insights
 <div align='center'>
-  <b>Overall score 95% for Both Mobile & Desktop</b>
+  <b>Overall score 95% for Both Mobile & Desktop</b><br>
   <img src="design/page-speed.png"><br>
   <a href="https://pagespeed.web.dev/analysis/https-pangrwa-github-io-frontend-mentor-challenges-results-summary-component-main-index-html/nqsrrrlknq?form_factor=desktop">Click here for more information</a>
 </div>
